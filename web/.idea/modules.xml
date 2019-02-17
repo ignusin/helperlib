@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1412978191/helperlib.core.iml" filepath="$PROJECT_DIR$/.idea/modules/1412978191/helperlib.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1412978191/helperlib.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1412978191/helperlib.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1412978191/helperlib.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1412978191/helperlib.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helperlib.web.iml" filepath="$PROJECT_DIR$/.idea/modules/helperlib.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helperlib.web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/helperlib.web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helperlib.web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/helperlib.web.test.iml" />
+    </modules>
+  </component>
+</project>
