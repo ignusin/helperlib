@@ -1,4 +1,4 @@
 rootProject.name = 'web'
 
-include 'core'
-project(':core').projectDir = new File(settingsDir, '../core')
+include 'helperlib.core'
+project(':helperlib.core').projectDir = new File(settingsDir, '../core')
