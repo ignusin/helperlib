@@ -1,4 +1,37 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "net.ltgt.gradle:gradle-apt-plugin:0.10"
+    }
+}
+
+group 'helperlib'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'net.ltgt.apt'
+
+tasks.withType(JavaCompile) {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+}
+
 dependencies {
+    compile 'org.projectlombok:lombok:1.18.4'
+    apt 'org.projectlombok:lombok:1.18.4'
+
+    implementation 'org.apache.commons:commons-collections4:4.2'
+    implementation 'org.apache.commons:commons-lang3:3.8.1'
+    implementation 'commons-io:commons-io:2.6'
+
     implementation 'org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.1.0.RELEASE'
 
