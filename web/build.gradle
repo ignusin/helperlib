@@ -37,5 +37,5 @@ dependencies {
 
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
 
-    implementation project(':helperlib.core')
+    implementation project(':helperlib-core')
 }
